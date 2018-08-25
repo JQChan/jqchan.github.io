@@ -17,9 +17,9 @@ after_script:
 - git config user.name "JQ_Chan"
 - git config user.email "vikers28@icloud.com"
 - git remote add origin https://github.com/jqchan/jqchan.github.io.git
-- git pull https://github.com/jqchan/jqchan.github.io.git master
 - git add .
 - git commit -m "Update site"
+- git pull https://github.com/jqchan/jqchan.github.io.git master
 - git push "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
   only:
