@@ -1,0 +1,9 @@
+friend_links:
+  - name: hexo-theme-skapp
+    desc: hexo-theme-skapp
+    link: https://github.com/Mrminfive/hexo-theme-skapp
+
+build_tools:
+  - name: Hexo
+    desc: Blog Framework
+    link: https://hexo.io/
