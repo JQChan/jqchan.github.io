@@ -1,0 +1,30 @@
+language: node_js
+node_js: stable
+addons:
+  apt:
+    update: true
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+before_script: 
+script:
+- hexo g
+after_script:
+- cd ./public
+- git init
+- git config user.name "JQ_Chan"
+- git config user.email "vikers28@icloud.com"
+- git remote add origin https://github.com/JQChan/jqchan.github.io.git
+- git pull
+- git add .
+- git commit -m "Update site"
+- git push "https://${GH_TOKEN}@${GH_REF}" master:master
+branches:
+  only:
+  - dev
+env:
+  global:
+  - GH_REF: github.com/jqchan/jqchan.github.io.git
+  - secure: L4w5iBKbF9imCYc2MowaxbA1vG2ygwApSdv6oPhuz4SFqsYqVxIwaK2fnqW3T59PINEvMij6KDVbhY5mU37DQKmZXNzOSXuk96VNfNwe9o0xacaS6Qkc5kQZOG3oQ2H4U4zBfjEYrw42j5zjrOgcEF9asYgYEAXOLkGYHVbtJWCGF0Pxi0Dhwv/DkgXGC0zjfB33KDBNIZ7Hlvb9KA3s3VSZLrAptKlk5zHL3FcqDbnbm0SsmRxIZ26yxqB+8JGukLD/7rO152BTaG+51dez6YWUd0qlVsB3zkEVJIrj3xxWmhVsz5T3uTyM4tJTU+YMypp0xmMBcCG3TAEdhOmeeh2754IHZ+ZhrJoJRCPVFcsxRnmYig6gQnsEdc8Uklx99UeBbGo4uHL4NnMmh+ITBwnIS5mF3mOZ9KQi2DiyS5DqDGMvowZKvDIVruGvkYAzB4lbH+U9GjBfBbfr+PzUG2D2VrOn9DVinw+jWXbnJx/zluPWtKzxc5Xe5r/wZL2xLx6E/i0se5M40OyAExnjvwahOvFq5XsRvUYYahuUuxmHlgRbCUxoTGxBXH2rXbGUTZdGlDyjXpo+soNinl5qq+wCHXB7yIryIEZl8Pa56ewpoDYRww/rtKx03WirCLWZ6Pq0T6xU+OwRY4LECYbnvu7ducKpPrnT4AqJsUsp+L8=
