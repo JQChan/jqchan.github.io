@@ -16,6 +16,8 @@ after_script:
 - git init
 - git config user.name "JQ_Chan"
 - git config user.email "vikers28@icloud.com"
+- git branch
+- git remote -v
 - git remote add origin https://github.com/jqchan/jqchan.github.io.git
 - git merge origin/master --allow-unrelated-histories
 - git branch --set-upstream-to=origin/master master
