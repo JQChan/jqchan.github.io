@@ -9,4 +9,4 @@ categories: 生活杂碎
 subtitle: Finally!!!我的GitHub博客终于搭建好啦!!!
 ---
 
-利用Hexo生成github博文每次都要运行hexo g 和hexo d去提交博文，很不方便。
+利用Hexo生成github博文每次都要运行hexo g 和hexo d去提交博文，很不方便
