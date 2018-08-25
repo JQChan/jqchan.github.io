@@ -1,41 +1,28 @@
 language: node_js
 node_js: stable
-
-# Travis CI建议加的，自动更新api
-addons: 
+addons:
   apt:
     update: true
-
-# Travis-CI Caching
 cache:
   directories:
-    - node_modules # 缓存 node_modules
-
-# S: Build Lifecycle
+  - node_modules
 install:
-  - npm install # 初次安装，在CI环境中，执行安装npm依赖
-
-before_script:
- # - npm install -g gulp
-
-
+- npm install
+before_script: 
 script:
-  - hexo g # 执行 hexo generate，把文章编译到public中
-
-
-after_script: # 执行script成功后，进入到public，把里面的代码提交到博客的gh-pages分支
-  - cd ./public
-  - git init
-  - git config user.name "JQ_Chan"
-  - git config user.email "vikers28@icloud.com"
-  - git add .
-  - git commit -m "Update site"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-# E: Build LifeCycle
-
+- hexo g
+after_script:
+- cd ./public
+- git init
+- git config user.name "JQ_Chan"
+- git config user.email "vikers28@icloud.com"
+- git add .
+- git commit -m "Update site"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
   only:
-    - dev # CI 只针对分支 dev
+  - dev
 env:
- global: # 全局变量，上面的提交到github的命令有用到
-   - GH_REF: github.com/jqchan/jqchan.github.io.git
+  global:
+  - GH_REF: github.com/jqchan/jqchan.github.io.git
+  - secure: L4w5iBKbF9imCYc2MowaxbA1vG2ygwApSdv6oPhuz4SFqsYqVxIwaK2fnqW3T59PINEvMij6KDVbhY5mU37DQKmZXNzOSXuk96VNfNwe9o0xacaS6Qkc5kQZOG3oQ2H4U4zBfjEYrw42j5zjrOgcEF9asYgYEAXOLkGYHVbtJWCGF0Pxi0Dhwv/DkgXGC0zjfB33KDBNIZ7Hlvb9KA3s3VSZLrAptKlk5zHL3FcqDbnbm0SsmRxIZ26yxqB+8JGukLD/7rO152BTaG+51dez6YWUd0qlVsB3zkEVJIrj3xxWmhVsz5T3uTyM4tJTU+YMypp0xmMBcCG3TAEdhOmeeh2754IHZ+ZhrJoJRCPVFcsxRnmYig6gQnsEdc8Uklx99UeBbGo4uHL4NnMmh+ITBwnIS5mF3mOZ9KQi2DiyS5DqDGMvowZKvDIVruGvkYAzB4lbH+U9GjBfBbfr+PzUG2D2VrOn9DVinw+jWXbnJx/zluPWtKzxc5Xe5r/wZL2xLx6E/i0se5M40OyAExnjvwahOvFq5XsRvUYYahuUuxmHlgRbCUxoTGxBXH2rXbGUTZdGlDyjXpo+soNinl5qq+wCHXB7yIryIEZl8Pa56ewpoDYRww/rtKx03WirCLWZ6Pq0T6xU+OwRY4LECYbnvu7ducKpPrnT4AqJsUsp+L8=
