@@ -2,6 +2,7 @@
 <html lang="{{ config.language|default(theme.language) }}">
 <head>
     <meta charset="utf-8" />
+    <meta name="sogou_site_verification" content="qEngnZ6T4d"/>
     {% block title %}
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.subtitle|default(theme.subtitle) }}</title>
     {% endblock %}
