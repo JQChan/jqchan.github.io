@@ -1,5 +1,5 @@
 ---
-title: 利用Trais-CI自动化部署Hexo
+title: 利用Travis-CI自动化部署Hexo
 author: 
   nick: JQ_Chan
   link: https://www.github.com/jqchan
