@@ -13,6 +13,7 @@ script:
 - hexo g
 after_script:
 - cd ./public
+- git init
 - git config user.name "JQ_Chan"
 - git config user.email "vikers28@icloud.com"
 - git add .
