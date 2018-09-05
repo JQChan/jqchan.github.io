@@ -1,5 +1,6 @@
 ---
 title: Hexo使用文档
+date: 2018-08-22 10:32:00
 author: 
   nick: JQ_Chan
   link: https://www.github.com/jqchan
