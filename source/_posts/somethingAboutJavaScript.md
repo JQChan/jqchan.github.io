@@ -1,6 +1,6 @@
 ---
 title: 偶尔get到的JavaScript点
-date: 2018-09-012 13:00:00
+date: 2018-09-12 13:00:00
 author: 
   nick: JQ_Chan
   link: https://www.github.com/jqchan
