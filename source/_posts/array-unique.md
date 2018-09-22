@@ -113,7 +113,7 @@ function unique(arr){
   arr.map(function(item, i){
     if(map.has(item)){
       map.set(item, true)
-    } elsee{
+    } else {
       map.set(item, false)
       array.push(item)
     }
