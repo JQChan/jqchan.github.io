@@ -1,6 +1,6 @@
 ---
 title: JavaScript设计模式之单例模式
-date: 2018-01-03 23:00:00
+date: 2019-01-03 23:00:00
 author: 
   nick: JQ_Chan
   link: https://www.github.com/jqchan
