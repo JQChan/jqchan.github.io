@@ -197,3 +197,6 @@ about:
 
 # Busuanzi文章统计
 busuanzi: true
+
+# 百度统计
+baidu_statistic: f8b63cd7d101ffdd8301659f21c2400f
