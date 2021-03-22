@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JQ_Chan&#39;s Blog</title>
+  
+  <subtitle>JQ_Chan</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.35pals.com/"/>
+  <updated>2021-03-22T06:50:34.541Z</updated>
+  <id>http://www.35pals.com/</id>
+  
+  <author>
+    <name>[object Object]</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript设计模式之单例模式</title>
+    <link href="http://www.35pals.com/2019/01/03/JavaScript-Design-Pattern/"/>
+    <id>http://www.35pals.com/2019/01/03/JavaScript-Design-Pattern/</id>
+    <published>2019-01-03T23:00:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="JavaScript设计模式"><a href="#JavaScript设计模式" class="headerlink" title="JavaScript设计模式"></a>JavaScript设计模式</h2><p>设计模式分类：</p><ul><li>创建型设计模式，如Constructor（构造器模式）、Factory（工厂模式）、Abstract（抽象模式）、Prototype（原型模式）、Singleton（单例模式）、Builder（建造者模式／生成器模式）<blockquote><p>特点：专注于处理对象创建机制，以适合给定的情况的方式来创建对象</p></blockquote></li><li>结构型设计模式，如Decorator（装饰者模式）、Facade（外观模式／门面模式）、Flyweight（享元模式）、Adapter（适配器模式）、Proxy（代理模式）<blockquote><p>结构模式与对象组合有关，通常可以用于找出在不同对象之间建立关系的简单方法。</p></blockquote></li><li>行为型设计模式，如Iterator（迭代器模式）、Mediator（中介者模式）、Observer（观察者模式）、Visitor（访问者模式）<blockquote><p>专注于改善或简化系统中不同对象之间的通信</p></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;JavaScript设计模式&quot;&gt;&lt;a href=&quot;#JavaScript设计模式&quot; class=&quot;headerlink&quot; title=&quot;JavaScript设计模式&quot;&gt;&lt;/a&gt;JavaScript设计模式&lt;/h2&gt;&lt;p&gt;设计模式分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript设计模式之构造器模式</title>
+    <link href="http://www.35pals.com/2019/01/03/the-constructor-pattern/"/>
+    <id>http://www.35pals.com/2019/01/03/the-constructor-pattern/</id>
+    <published>2019-01-03T23:00:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Constructor（构造器模式）"><a href="#Constructor（构造器模式）" class="headerlink" title="Constructor（构造器模式）"></a>Constructor（构造器模式）</h2><p>在ES6之前，JavaScript不支持class类的概念，但支持与对象一样用法的特殊constructor（构造器）函数。<br>通过在构造器前面加new关键字，告诉JavaScript像使用构造器一样实例化一个新对象，并且对象成员由该函数定义。<br>在构造器内，关键字this引用新创建的对象。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Constructor（构造器模式）&quot;&gt;&lt;a href=&quot;#Constructor（构造器模式）&quot; class=&quot;headerlink&quot; title=&quot;Constructor（构造器模式）&quot;&gt;&lt;/a&gt;Constructor（构造器模式）&lt;/h2&gt;&lt;p&gt;在ES6之前
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一波MarkDown语法</title>
+    <link href="http://www.35pals.com/2018/12/15/markdown-doc/"/>
+    <id>http://www.35pals.com/2018/12/15/markdown-doc/</id>
+    <published>2018-12-15T15:10:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题(# = -)"></a>一、标题(# = -)</h1><ul><li><h3 id="类Atx"><a href="#类Atx" class="headerlink" title="类Atx"></a>类Atx</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># H1一级标题</span></span><br><span class="line"><span class="comment">## H2二级标题</span></span><br><span class="line"><span class="comment">### H3三级标题</span></span><br><span class="line"><span class="comment">#### H4四级标题</span></span><br><span class="line"><span class="comment">##### H5五级标题</span></span><br><span class="line"><span class="comment">###### H6六级标题</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="H1一级标题"><a href="#H1一级标题" class="headerlink" title="H1一级标题"></a>H1一级标题</h1><h2 id="H2二级标题"><a href="#H2二级标题" class="headerlink" title="H2二级标题"></a>H2二级标题</h2><h3 id="H3三级标题"><a href="#H3三级标题" class="headerlink" title="H3三级标题"></a>H3三级标题</h3><h4 id="H4四级标题"><a href="#H4四级标题" class="headerlink" title="H4四级标题"></a>H4四级标题</h4><h5 id="H5五级标题"><a href="#H5五级标题" class="headerlink" title="H5五级标题"></a>H5五级标题</h5><h6 id="H6六级标题"><a href="#H6六级标题" class="headerlink" title="H6六级标题"></a>H6六级标题</h6><ul><li><h3 id="类Setex形式（底线的符号个数为大于或等于1）"><a href="#类Setex形式（底线的符号个数为大于或等于1）" class="headerlink" title="类Setex形式（底线的符号个数为大于或等于1）"></a>类Setex形式（底线的符号个数为大于或等于1）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">标题内容</span><br><span class="line">====</span><br><span class="line"></span><br><span class="line">标题内容</span><br><span class="line">----</span><br></pre></td></tr></table></figure></li></ul><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h1 id="二、文字格式（-）"><a href="#二、文字格式（-）" class="headerlink" title="二、文字格式（* _ ** ~~）"></a>二、文字格式（* _ ** ~~）</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">_斜体_</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure><p><em>斜体</em></p><p>_斜体_</p><p><strong>粗体</strong></p><p><strong><em>加粗斜体</em></strong></p><p><del>删除线</del></p><h1 id="三、无序列表（-）"><a href="#三、无序列表（-）" class="headerlink" title="三、无序列表（* + -）"></a>三、无序列表（* + -）</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* 无序列表的用法很简单,有三种符号格式可实现：星号(*) ，加号(+) ，减号(-) 。</span><br><span class="line">* 直接符号 空格 文字信息；</span><br><span class="line">* 注意点，就是符号后面得添加空格，如果不添加空格就会有问题哦😯</span><br><span class="line">+ 符号 + 表示的无序列表；</span><br><span class="line">- 符号 - 也可以表示无序列表</span><br></pre></td></tr></table></figure><ul><li>无序列表的用法很简单,有三种符号格式可实现：星号(*) ，加号(+) ，减号(-) 。</li><li>直接符号 空格 文字信息；</li><li>注意点，就是符号后面得添加空格，如果不添加空格就会有问题哦😯</li></ul><ul><li>符号 + 表示的无序列表；</li></ul><ul><li>符号 - 也可以表示无序列表</li></ul><h1 id="四、有序列表（数字-英文句点-空格）"><a href="#四、有序列表（数字-英文句点-空格）" class="headerlink" title="四、有序列表（数字 英文句点 空格）"></a>四、有序列表（数字 英文句点 空格）</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1. 有序列表的语法</span><br><span class="line">2. 数字接着一个英文句点</span><br><span class="line">3. 注意事项：可能编写的过程中会有如下的语句</span><br><span class="line">2018. 就要匆匆过去了。</span><br><span class="line"></span><br><span class="line">这里的2018. (数字 英文句点 空白)被认为成一个有序列表啦！</span><br><span class="line">解决这种问题，在英文句点(.)前面添加反斜杠(\)就可以啦！ </span><br><span class="line">改为： 2018\. 就要匆匆过去了。</span><br></pre></td></tr></table></figure><ol><li>有序列表的语法</li><li>数字接着一个英文句点</li><li>注意事项：可能编写的过程中会有如下的语句</li><li>就要匆匆过去了。</li></ol><p>这里的2018. (数字 英文句点 空白)被认为成一个有序列表啦！<br>解决这种问题，在英文句点(.)前面添加反斜杠()就可以啦！<br>改为： 2018. 就要匆匆过去了。</p><h1 id="五、表格-（居中-居左-居右-无变化-）"><a href="#五、表格-（居中-居左-居右-无变化-）" class="headerlink" title="五、表格(|)  （居中:-:  居左:-  居右-:  无变化-）"></a>五、表格(|)  （居中:-:  居左:-  居右-:  无变化-）</h1><p>首先了解符号：冒号(:) 表示对齐方式； (|) 可以认为是一个隔开的作用吧！<br>(:) 与 (|) 之前尽量不要有空格，否则可能有兼容性问题。 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">表头1|表头2|表头3|表头4</span><br><span class="line">:-:|:-|-:|-</span><br><span class="line">居中|居左|居右|无变化</span><br></pre></td></tr></table></figure><table><thead><tr><th style="text-align:center">表头1</th><th style="text-align:left">表头2</th><th style="text-align:right">表头3</th><th>表头4</th></tr></thead><tbody><tr><td style="text-align:center">居中</td><td style="text-align:left">居左</td><td style="text-align:right">居右</td><td>无变化</td></tr></tbody></table><h1 id="六、超链接（行内式）"><a href="#六、超链接（行内式）" class="headerlink" title="六、超链接（行内式）"></a>六、超链接（行内式<a href=""></a>）</h1><h3 id="行内式（-）"><a href="#行内式（-）" class="headerlink" title="行内式（[] ()）"></a><strong>行内式</strong>（[] ()）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">行内式：[链接文字](链接地址 “title”)</span><br><span class="line">说明：</span><br><span class="line">[] 里填写链接文字；就是界面上看到的那个文字。</span><br><span class="line">() 里填写链接地址；就是需要跳转的地址。</span><br><span class="line">title属性：就是鼠标悬浮时展示的文字，该项非必填。</span><br></pre></td></tr></table></figure><p><a href="https://www.baidu.com" title="这个是title" target="_blank" rel="noopener">百度</a></p><h3 id="参考式（-）"><a href="#参考式（-）" class="headerlink" title="参考式（[][]）"></a><strong>参考式</strong>（[][]）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[链接文字][链接名称]</span><br><span class="line"></span><br><span class="line">[链接名称]: 链接地址 <span class="string">"title"</span></span><br></pre></td></tr></table></figure><p>我上网搜索基本都使用 <a href="https://www.google.com/" title="点击跳到Google" target="_blank" rel="noopener">Google</a> ,很少使用 <a href="https://www.baidu.com/" title="点击跳到Baidu Search" target="_blank" rel="noopener">百度</a> 或者 <a href="https://cn.bing.com/" title="点击跳到Bing Search" target="_blank" rel="noopener">Bing</a> .<br>首先我不喜欢 <a href="https://www.baidu.com/" title="点击跳到Baidu Search" target="_blank" rel="noopener">百度搜索</a> 搞竞价排名;再者用 <a href="https://www.google.com/" title="点击跳到Google" target="_blank" rel="noopener">Google</a> 探索更大的世界！</p><p><strong>（链接名称可以用字母、数字和空格，但是不分大小写）</strong></p><p>早饭后，我打开 <a href="https://dict.eudic.net/ting" title="每日英语听力 - 欧路词典" target="_blank" rel="noopener">每日英语听力</a> 学习英语。遇到不懂的英语单词，我借助 <a href="https://dict.eudic.net/" title="《欧路词典》在线版" target="_blank" rel="noopener">欧路在线词典</a><br>查看释义并加入生词本，方便使用 <a href="https://www.eudic.net/v4/en/app/eudic" title="《欧路词典》英语翻译软件官方主页" target="_blank" rel="noopener">客户端</a> 随时记忆单词。</p><h3 id="自动链接（-lt-gt-）"><a href="#自动链接（-lt-gt-）" class="headerlink" title="自动链接（&lt;&gt;）"></a>自动链接（&lt;&gt;）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;https://www.baidu.com&gt;</span><br><span class="line">&lt;https://www.google.com&gt;</span><br></pre></td></tr></table></figure><p><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p><p><a href="https://www.google.com" target="_blank" rel="noopener">https://www.google.com</a></p><h1 id="七、图片（-）"><a href="#七、图片（-）" class="headerlink" title="七、图片（! [] ()）"></a>七、图片（! [] ()）</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">![图片Alt](图片地址 “图片Title”)</span><br><span class="line"></span><br><span class="line">图片Alt：这个就是图片没有加载出来的时候，然后就会显示这个文字啦。</span><br><span class="line">图片Title：悬浮的时候现实的文字。</span><br></pre></td></tr></table></figure><p><img src="https://upload.jianshu.io/users/upload_avatars/2954515/363c637381f8?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120" alt="简书头像" title="图片title"></p><h1 id="八、代码"><a href="#八、代码" class="headerlink" title="八、代码(  "></a>八、代码(<code></code>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">``` bash</span><br><span class="line">    `code`</span><br></pre></td></tr></table></figure></h1><h1 id="九、引用文字"><a href="#九、引用文字" class="headerlink" title="九、引用文字"></a>九、引用文字</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;非常方便，符号(&gt;) 后面直接文字信息；</span><br><span class="line">&gt;&gt; 层级越多就是符号越多啰，很好理解吧！</span><br></pre></td></tr></table></figure><blockquote><p>非常方便，符号(&gt;) 后面直接文字信息；</p><blockquote><p>层级越多就是符号越多啰，很好理解吧！</p><blockquote><p>第三层</p></blockquote></blockquote></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一、标题&quot;&gt;&lt;a href=&quot;#一、标题&quot; class=&quot;headerlink&quot; title=&quot;一、标题(# = -)&quot;&gt;&lt;/a&gt;一、标题(# = -)&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;类Atx&quot;&gt;&lt;a href=&quot;#类Atx&quot; class=&quot;heade
+      
+    
+    </summary>
+    
+      <category term="js" scheme="http://www.35pals.com/categories/js/"/>
+    
+    
+      <category term="MarkDown" scheme="http://www.35pals.com/tags/MarkDown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 数组去重</title>
+    <link href="http://www.35pals.com/2018/09/22/array-unique/"/>
+    <id>http://www.35pals.com/2018/09/22/array-unique/</id>
+    <published>2018-09-22T13:34:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数组去重方法"><a href="#数组去重方法" class="headerlink" title="数组去重方法"></a>数组去重方法</h2><h3 id="1-利用ES6-Set去重（ES6中常用）"><a href="#1-利用ES6-Set去重（ES6中常用）" class="headerlink" title="1.  利用ES6 Set去重（ES6中常用）"></a>1.  利用ES6 Set去重（ES6中常用）</h3><p>原理：<br><strong>Set对象能存储任何类型值的唯一值，无论是原始值还是对象引用，（<a href="https://devdocs.io/javascript/global_objects/set）" target="_blank" rel="noopener">https://devdocs.io/javascript/global_objects/set）</a></strong><br>new Set只会返回一个Set对象，在这个对象中的值只能出现一次，它在Set对象中是独一无二的;</p><p>⚠️ Set对象根据值相等原则去筛选，+0和-0、0相等，NaN也等于NaN，但{}不等于{}, []不等于<a href="即值如果是引用类型的，如果不是同一个引用，值都不相等"></a></p><p><strong>缺点：</strong> 所以，Set不能去掉空对象或者空数组<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">Array</span>.from(<span class="keyword">new</span> <span class="built_in">Set</span>(arr))</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//  或者</span></span><br><span class="line"><span class="keyword">var</span> uniqueArr = [...new <span class="built_in">Set</span>(arr)]</span><br></pre></td></tr></table></figure></p><h3 id="2-利用for循环嵌套for循环，然后利用数组的splice方法去重（ES5中常用）"><a href="#2-利用for循环嵌套for循环，然后利用数组的splice方法去重（ES5中常用）" class="headerlink" title="2.  利用for循环嵌套for循环，然后利用数组的splice方法去重（ES5中常用）"></a>2.  利用for循环嵌套for循环，然后利用数组的splice方法去重（ES5中常用）</h3><p>原理：<br>第一层从arr[0]的地方开始，第二层是从j+1的地方开始循环arr[i]后面的元素，数组是引用类型，同一个数组循环splice的话此时数组的长度减1，所以在第二层循环中找到相同的话j执行j–再从原来删掉的地方继续循环<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.length; i++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> j = j + <span class="number">1</span>; j &lt; arr.length; j++)&#123;</span><br><span class="line">      <span class="keyword">if</span>(arr[i] === arr[j])&#123;</span><br><span class="line">        arr.splice(j, <span class="number">1</span>)</span><br><span class="line">        j--</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> arr</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h3 id="3-利用Array-indexOf或者Array-includes去重"><a href="#3-利用Array-indexOf或者Array-includes去重" class="headerlink" title="3.  利用Array.indexOf或者Array.includes去重"></a>3.  利用Array.indexOf或者Array.includes去重</h3><p>原理：新建一个array，for 循环原数组，使用Array.indexOf()或者Array.includes()查找判断结果数组array是否存在当前元素，如果查找不到，则添加，最后这个新的array就是去重后的array<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> array = [];</span><br><span class="line">  arr.map(<span class="function"><span class="keyword">function</span>(<span class="params">item, i</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(array.indexOf(item) === <span class="number">-1</span>)&#123;</span><br><span class="line">    <span class="comment">// if(!array.includes(item))&#123;</span></span><br><span class="line">      array.push(item)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="keyword">return</span> array</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h3 id="4-利用sort"><a href="#4-利用sort" class="headerlink" title="4.  利用sort()"></a>4.  利用sort()</h3><p>原理：利用Array.sort()方法将原数组排序，然后判断左右相邻元素是否相等，从而去重，可以采用新建数组的方法，也可以采用splice方法<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  arr = arr.sort() <span class="comment">//默认由小到大排序</span></span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.length; i++)&#123;</span><br><span class="line">    <span class="keyword">if</span>(arr[i+<span class="number">1</span>] === arr[i])&#123;</span><br><span class="line">      arr.splice(i + <span class="number">1</span>, <span class="number">1</span>)</span><br><span class="line">      i--</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> arr</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h3 id="5-利用对象不存在相同属性方法去重"><a href="#5-利用对象不存在相同属性方法去重" class="headerlink" title="5.  利用对象不存在相同属性方法去重"></a>5.  利用对象不存在相同属性方法去重</h3><p>原理： 利用对象不存在相同属性方法去重，或者利用Object.hasOwnProperty()<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> obj = &#123;&#125;</span><br><span class="line">  <span class="keyword">var</span> array = []</span><br><span class="line">  arr.map(<span class="function"><span class="keyword">function</span>(<span class="params">item, i</span>)</span>&#123;</span><br><span class="line">    obj[item] = item</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">var</span> key <span class="keyword">in</span> obj)&#123;</span><br><span class="line">    array.push(obj[key])</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> array</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> obj = &#123;&#125;</span><br><span class="line">  <span class="keyword">return</span> arr.filter(<span class="function"><span class="keyword">function</span>(<span class="params">item, index, arr</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> obj.hasOwnProperty(<span class="keyword">typeof</span> item + item) ? <span class="literal">false</span> :</span><br><span class="line">      (obj[<span class="keyword">typeof</span> item + item] = <span class="literal">true</span>)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="6-利用Array-filter-amp-Array-indexOf-数组去重"><a href="#6-利用Array-filter-amp-Array-indexOf-数组去重" class="headerlink" title="6.  利用Array.filter()&amp;Array.indexOf()数组去重"></a>6.  利用Array.filter()&amp;Array.indexOf()数组去重</h3><p>原理：利用Array.filter()筛选数组当前元素在数组中的indexOf索引是否等于当前索引<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> arr.filter(<span class="function"><span class="keyword">function</span>(<span class="params">item, index, arr</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> arr.indexOf(item) === index</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h3 id="7-利用Map数据结构去重"><a href="#7-利用Map数据结构去重" class="headerlink" title="7.  利用Map数据结构去重"></a>7.  利用Map数据结构去重</h3><p>原理：Map对象包含键值对。任何值（对象和原始值）都可以用作键或值。键是唯一的</p><p>创建一个空Map数据结构，遍历需要去重的数组，把数组的每一个元素作为key存到Map中。由于Map中不会出现相同的key值，所以最终得到的就是去重后的结果<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">let</span> map = <span class="keyword">new</span> <span class="built_in">Map</span>()</span><br><span class="line">  <span class="keyword">let</span> array = []</span><br><span class="line">  arr.map(<span class="function"><span class="keyword">function</span>(<span class="params">item, i</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(map.has(item))&#123;</span><br><span class="line">      map.set(item, <span class="literal">true</span>)</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      map.set(item, <span class="literal">false</span>)</span><br><span class="line">      array.push(item)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="keyword">return</span> array</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://mp.weixin.qq.com/s/t696ccUdAKRjQwNfaD9X2w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/t696ccUdAKRjQwNfaD9X2w</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;数组去重方法&quot;&gt;&lt;a href=&quot;#数组去重方法&quot; class=&quot;headerlink&quot; title=&quot;数组去重方法&quot;&gt;&lt;/a&gt;数组去重方法&lt;/h2&gt;&lt;h3 id=&quot;1-利用ES6-Set去重（ES6中常用）&quot;&gt;&lt;a href=&quot;#1-利用ES6-Set去重（ES
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>偶尔get到的JavaScript点</title>
+    <link href="http://www.35pals.com/2018/09/12/somethingAboutJavaScript/"/>
+    <id>http://www.35pals.com/2018/09/12/somethingAboutJavaScript/</id>
+    <published>2018-09-12T13:00:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="持续更新中"><a href="#持续更新中" class="headerlink" title="持续更新中"></a>持续更新中</h3><ol><li>使用encodeURIComponent将URI参数encode，可防止内容注入攻击</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;持续更新中&quot;&gt;&lt;a href=&quot;#持续更新中&quot; class=&quot;headerlink&quot; title=&quot;持续更新中&quot;&gt;&lt;/a&gt;持续更新中&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;使用encodeURIComponent将URI参数encode，可防止内容注入攻击&lt;/li&gt;
+&lt;/ol
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac安装Fiddler</title>
+    <link href="http://www.35pals.com/2018/09/07/mac-fiddler/"/>
+    <id>http://www.35pals.com/2018/09/07/mac-fiddler/</id>
+    <published>2018-09-07T08:00:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近没工作，突然想做个小程序，并对一款以上线的小程序的一个功能非常感兴趣，但又不确定它是不是利用webview去做的，所以想抓包来看下。之前没接触过抓包工具，但面试的时候别人有问到前端用过哪些工具，表示只用过Postman去模拟请求，还有mock数据这些。所以百度了一下抓包工具，然后找了Fiddler的安装教程，可参考<a href="https://blog.csdn.net/gysea123321/article/details/51209564" target="_blank" rel="noopener">《[微信开发利器]微信内移动前端开发抓包调试工具fiddler使用教程》</a>以及<a href="https://blog.csdn.net/awker/article/details/39079475" target="_blank" rel="noopener">《使用Fiddler对移动设备上的HTTP/HTTPS抓包》</a>。</p><h2 id="Mono安装"><a href="#Mono安装" class="headerlink" title="Mono安装"></a>Mono安装</h2><p>Mac下需要使用.Net编译后的程序，需要用到跨平台的方案Mono（现阶段微软已推出跨平台的方案.Net Core，不过暂时只支持控制台程序）。安装程序可以从(<a href="http://www.mono-project.com/download/#download-mac)地址下载。" target="_blank" rel="noopener">http://www.mono-project.com/download/#download-mac)地址下载。</a></p><p>安装完后，在Terminal里执行以下命令，其中<code>&lt;mono version&gt;</code>替换成你所装的mono版本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Library/Frameworks/Mono.framework/Versions/&lt;mono version&gt;/bin/mozroots --import --sync</span><br></pre></td></tr></table></figure></p><p>此步是为了从Mozilla LXR上下载所有受信任的root证书，存于Mono的证书库里。root证书能用于请求https地址。</p><h2 id="Fiddler安装"><a href="#Fiddler安装" class="headerlink" title="Fiddler安装"></a>Fiddler安装</h2><p>从Fiddler官网(<a href="https://www.telerik.com/download/fiddler)下载fiddler-mac.zip的压缩包。解压到非中文字符的路径下即可。" target="_blank" rel="noopener">https://www.telerik.com/download/fiddler)下载fiddler-mac.zip的压缩包。解压到非中文字符的路径下即可。</a></p><h2 id="运行Fiddler"><a href="#运行Fiddler" class="headerlink" title="运行Fiddler"></a>运行Fiddler</h2><p>在刚才fiddler-mac解压的文件夹下新建一个Terminal终端，执行命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mono Fiddler.exe</span><br></pre></td></tr></table></figure></p><p>在此过程中，启动Fiddler可能会报错（我的就报错了），如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">=================================================================</span><br><span class="line">Got a SIGSEGV <span class="keyword">while</span> executing native code. This usually indicates</span><br><span class="line">a fatal error <span class="keyword">in</span> the mono runtime or one of the native libraries </span><br><span class="line">used by your application.</span><br><span class="line">=================================================================</span><br></pre></td></tr></table></figure></p><p><strong>解决方案就是切换32bit-mono启动Fiddler</strong>，可参考<a href="https://yq.aliyun.com/articles/443107" target="_blank" rel="noopener">《mac下Fiddler的安装-启动》</a>以及<a href="https://hk.saowen.com/a/8a726de5a45fb20a2591440689eb0509115eccdfd2d8de01072d3f11f4f21652?spm=a2c4e.11153940.blogcont443107.10.10a96998hWxqfu" target="_blank" rel="noopener">《mac mono Fiddler.exe啟動失敗》</a>。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mono --arch=32 Fiddler.exe</span><br></pre></td></tr></table></figure></p><p>启动过程中需要输入电脑使用者的密码</p><h2 id="修改Fiddler配置"><a href="#修改Fiddler配置" class="headerlink" title="修改Fiddler配置"></a>修改Fiddler配置</h2><p>打开Fiddler后在菜单栏中点击 Tools - Options - Connections 中配置Allow remote computers to connect 以及点击隔壁的HTTPS配置Decrypt HTTPS Traffic，重启Fiddler</p><h2 id="手机设置代理（手机和电脑必须在统一局域网）"><a href="#手机设置代理（手机和电脑必须在统一局域网）" class="headerlink" title="手机设置代理（手机和电脑必须在统一局域网）"></a>手机设置代理（手机和电脑必须在统一局域网）</h2><p>我的手机还是老款的华为安卓机，不懂手机设置代理的可以百度一下。</p><p>打开Fiddler后右上角有个Online的，鼠标放上去或者点击一下就会显示Fiddler的IP地址，设置代理的时候输入这个IP就行了，默认端口可在上面<strong>修改Fiddler配置</strong>中的Connections中设置或者查看，默认为8888</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>然后在手机端访问网页什么的就可以在Fiddler中看到请求啦，然后自己去找自己需要的东西吧，然后就没有然后了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近没工作，突然想做个小程序，并对一款以上线的小程序的一个功能非常感兴趣，但又不确定它是不是利用webview去做的，所以想抓包来看下。之前没接触过抓包工具，但面试的时候别人有问到前端用过哪些工具，表示只用过Postman去模拟请求，还有mock数据这些。所以百度了一下抓包
+      
+    
+    </summary>
+    
+      <category term="生活杂碎" scheme="http://www.35pals.com/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E/"/>
+    
+    
+      <category term="Fiddler" scheme="http://www.35pals.com/tags/Fiddler/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu安装node</title>
+    <link href="http://www.35pals.com/2018/09/06/ubuntu-node/"/>
+    <id>http://www.35pals.com/2018/09/06/ubuntu-node/</id>
+    <published>2018-09-06T20:45:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于4月份买了3年的阿里云云服务器ECS，想着自己接触一下Linux，然后顺便接触一下Node.js。</p><p>我的ESC服务器使用的是Ubuntu 16.04的系统，百度了下怎样在Ubuntu中安装Node，最后参考了CSDN上的一篇文章————<a href="https://blog.csdn.net/wangtaoking1/article/details/78005038" target="_blank" rel="noopener">《Ubuntu环境下安装nodejs和npm》</a>，成功地在Ubuntu上安装了Node。（还有一篇文章介绍了在Ubuntu上安装Node的多种方法，详见<a href="https://yq.aliyun.com/articles/87706?spm=5176.10695662.1996646101.searchclickresult.61e46f17ivNa1W" target="_blank" rel="noopener">《在Ubuntu下安装Node.JS的不同方式》</a>）在此过程中遇到了一个报错：<em>sudo: unable to resolve host xxxx</em>，解决方法参考<a href="https://blog.csdn.net/a1007720052/article/details/79804098" target="_blank" rel="noopener">《Ubuntu 报错 sudo: unable to resolve host xxxx 解决方法》</a></p><p><strong>Ubuntu命令采用apt-get，CentOS采用yum</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由于4月份买了3年的阿里云云服务器ECS，想着自己接触一下Linux，然后顺便接触一下Node.js。&lt;/p&gt;
+&lt;p&gt;我的ESC服务器使用的是Ubuntu 16.04的系统，百度了下怎样在Ubuntu中安装Node，最后参考了CSDN上的一篇文章————&lt;a href=&quot;h
+      
+    
+    </summary>
+    
+      <category term="Node杂想" scheme="http://www.35pals.com/categories/Node%E6%9D%82%E6%83%B3/"/>
+    
+    
+      <category term="Node" scheme="http://www.35pals.com/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>delete操作符</title>
+    <link href="http://www.35pals.com/2018/09/05/delete/"/>
+    <id>http://www.35pals.com/2018/09/05/delete/</id>
+    <published>2018-09-05T21:32:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇文章主要介绍一下<a href="https://devdocs.io/javascript/operators/delete" target="_blank" rel="noopener">delete</a>操作符。delete操作符主要用于从对象中删除属性，结果是对象不再保留对此属性的引用，最终自动释放，所以之后在查询此属性的话会返回undefined。如<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Employee = &#123;</span><br><span class="line">  firstname: <span class="string">"Mohammed"</span>,</span><br><span class="line">  lastname: <span class="string">"Haddad"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(Employee.firstname);</span><br><span class="line"><span class="comment">// "Mohammed"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">delete</span> Employee.firstname;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(Employee.firstname);</span><br><span class="line"><span class="comment">// undefined</span></span><br><span class="line"><span class="built_in">console</span>.log(Employee)</span><br><span class="line"><span class="comment">// Object &#123; lastname: "Haddad" &#125;</span></span><br></pre></td></tr></table></figure></p><h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">delete object.property</span><br><span class="line">delete object[&apos;property&apos;]</span><br></pre></td></tr></table></figure><h3 id="返回值："><a href="#返回值：" class="headerlink" title="返回值："></a>返回值：</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="literal">true</span> / <span class="literal">false</span></span><br></pre></td></tr></table></figure><p><strong>非严格模式下，删除对象的不可配置属性的情况会返回false，其他情况都会返回true，包括删除一个不存在的属性也会返回true</strong></p><p>严格模式下，删除对象的不可配置属性会报<strong>SyntaxError</strong>语法错误</p><p>如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Employee = &#123;</span><br><span class="line">  age: <span class="number">28</span>,</span><br><span class="line">  name: <span class="string">'abc'</span>,</span><br><span class="line">  designation: <span class="string">'developer'</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">delete</span> Employee.name);   <span class="comment">// 返回true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">delete</span> Employee.age);    <span class="comment">// 返回true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 尝试删除一个不存在的属性，结果会返回true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">delete</span> Employee.salary); <span class="comment">// 返回true</span></span><br><span class="line"><span class="comment">// 定义一个属性是不可配置的</span></span><br><span class="line"><span class="built_in">Object</span>.defineProperty(Employee, <span class="string">'height'</span>, &#123;<span class="attr">configurable</span>: <span class="literal">false</span>&#125;);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">delete</span> Employee.height) <span class="comment">// 返回false</span></span><br></pre></td></tr></table></figure></p><p><strong>无论在全局作用域中还是函数作用域中，通过var、let、const声明的变量的configurable都为false，所以采用delete操作符是无法删除的，但直接声明的全局变量却可以采用delete操作符直接删除</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> nameOther = <span class="string">'XYZ'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接在全局作用域生命一个变量adminName</span></span><br><span class="line">adminName = <span class="string">'xyz'</span>;   </span><br><span class="line"></span><br><span class="line"><span class="comment">// 通过以下方法获取全局属性</span></span><br><span class="line"><span class="built_in">Object</span>.getOwnPropertyDescriptor(<span class="built_in">window</span>, <span class="string">'nameOther'</span>); </span><br><span class="line"><span class="comment">// Object &#123;value: "XYZ", </span></span><br><span class="line"><span class="comment">//                  writable: true, </span></span><br><span class="line"><span class="comment">//                  enumerable: true,</span></span><br><span class="line"><span class="comment">//                  configurable: false&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 因为nameOther是通过var去声明的，所以它是不可配置的</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">delete</span> nameOther;   <span class="comment">// 返回false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">delete</span> adminName;       <span class="comment">// 返回true</span></span><br></pre></td></tr></table></figure></p><p><strong>delete操作符只会删除对象自己的属性，但如果此对象的原型链上存在删除的属性，则对象会继续使用原型链上的那个属性</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.bar = <span class="number">10</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Foo.prototype.bar = <span class="number">42</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> foo = <span class="keyword">new</span> Foo();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除自身的属性，返回true</span></span><br><span class="line"><span class="keyword">delete</span> foo.bar;           </span><br><span class="line"></span><br><span class="line"><span class="comment">// foo.bar还是可用的，因为它的原型链上还存在bar属性</span></span><br><span class="line"><span class="built_in">console</span>.log(foo.bar);</span><br><span class="line"></span><br><span class="line"><span class="keyword">delete</span> Foo.prototype.bar; </span><br><span class="line"></span><br><span class="line"><span class="comment">// 原型链上的bar属性已删除，所以输出undefined</span></span><br><span class="line"><span class="built_in">console</span>.log(foo.bar);</span><br></pre></td></tr></table></figure></p><p><strong>delete操作符不能删除全局作用域中的function函数，但如果函数作为对象的方法，则可以删除</strong></p><p><strong>delete操作符也不能删除浏览器内置的静态属性或方法</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">delete</span> <span class="built_in">Math</span>.PI; <span class="comment">// 返回false</span></span><br></pre></td></tr></table></figure></p><h3 id="删除数组元素"><a href="#删除数组元素" class="headerlink" title="删除数组元素"></a>删除数组元素</h3><p><strong>采用delete操作符删除任何数组的元素，都不会影响数组的长度（即length），但这个元素将不再存在在数组中，所以删除数组元素建议采用直接将数组的元素直接赋值为undefined或者采用splice方法去删除某个元素</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> trees = [<span class="string">'redwood'</span>, <span class="string">'bay'</span>, <span class="string">'cedar'</span>, <span class="string">'oak'</span>, <span class="string">'maple'</span>];</span><br><span class="line"><span class="keyword">delete</span> trees[<span class="number">3</span>];</span><br><span class="line"><span class="keyword">if</span> (<span class="number">3</span> <span class="keyword">in</span> trees) &#123;</span><br><span class="line">    <span class="comment">// 这里的代码将不会执行到</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这篇文章主要介绍一下&lt;a href=&quot;https://devdocs.io/javascript/operators/delete&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;delete&lt;/a&gt;操作符。delete操作符主要用于从对象中删除属性，结果是
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用Travis-CI自动化部署Hexo</title>
+    <link href="http://www.35pals.com/2018/08/25/hexo-auto-generate/"/>
+    <id>http://www.35pals.com/2018/08/25/hexo-auto-generate/</id>
+    <published>2018-08-25T10:27:48.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>利用Hexo生成github博文每次都要运行hexo g 和hexo d去提交博文，很不方便</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;利用Hexo生成github博文每次都要运行hexo g 和hexo d去提交博文，很不方便&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="生活杂碎" scheme="http://www.35pals.com/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E/"/>
+    
+    
+      <category term="Hexo Blog" scheme="http://www.35pals.com/tags/Hexo-Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Finally!!!我的GitHub博客终于搭建好啦!!!</title>
+    <link href="http://www.35pals.com/2018/08/24/Welcome-To-My-Github-Blog/"/>
+    <id>http://www.35pals.com/2018/08/24/Welcome-To-My-Github-Blog/</id>
+    <published>2018-08-24T10:32:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>是的，我的GitHub博客<a href="https://35pals.com/" target="_blank" rel="noopener">35pals.com</a>终于终于终于搭建起来了（利用Hexo搭的）！！！曾几何时，自己想着可以像别人家的孩子一样，拥有自己的博客，这样就可以记录一些自己学到的知识和生活的点点滴滴。作为一个程序员，工作了四年才想着去搭自己的博客（没有时间弄，好吧，又在找借口了，我承认是我懒），这无疑是一个失败的程序员。但是，也正是做了两个多月的闲人，在面试众多前端开发岗位无果后，自己猛然发现原来很多东西是自己还不会的东西有很多（当然，自己遗忘的东西也很多），这也许是在招聘公司眼里不能成为一个中高级程序员的重要因素。在这两个多月里，自己从头看完了《JavaScript权威指南》（第六版），还看了张鑫旭大神写的《CSS世界》、阮一峰写的《ECMASScript6入门》，重新了解CSS、JavaScript、React以及React 16的新特性，也开始接触Vue（很多公司一听说没有Vue实战经验，就让回去等通知或者拒绝了，也是无语😓）。</p><p>总而言之，言而总之，慢慢来吧，不能强求，纸上得来总觉浅，绝知此事要躬行，学到的东西才是自己的。起码，我又迈出了成长的一步，不是吗？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;是的，我的GitHub博客&lt;a href=&quot;https://35pals.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;35pals.com&lt;/a&gt;终于终于终于搭建起来了（利用Hexo搭的）！！！曾几何时，自己想着可以像别人家的孩子一样，拥有自己
+      
+    
+    </summary>
+    
+      <category term="生活杂碎" scheme="http://www.35pals.com/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E/"/>
+    
+    
+      <category term="Hexo Blog" scheme="http://www.35pals.com/tags/Hexo-Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo使用文档</title>
+    <link href="http://www.35pals.com/2018/08/22/hello-world/"/>
+    <id>http://www.35pals.com/2018/08/22/hello-world/</id>
+    <published>2018-08-22T10:32:00.000Z</published>
+    <updated>2021-03-22T06:50:34.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://www.35pals.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JS" scheme="http://www.35pals.com/tags/JS/"/>
+    
+      <category term="Hexo Blog" scheme="http://www.35pals.com/tags/Hexo-Blog/"/>
+    
+      <category term="CSS" scheme="http://www.35pals.com/tags/CSS/"/>
+    
+  </entry>
+  
+</feed>
